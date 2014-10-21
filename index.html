@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<script src="//code.jquery.com/jquery.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+<style id="jsbin-css">
+body{
+  background-image:url("http://i.imgur.com/DUmLt4D.png?1");
+  background-color:#000;
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+}
+h1{color:#fff;font-size:48px;}
+h2{color:#db2e34;margin:0px 0px 20px;padding:0px;}
+p{color:#fff}
+</style>
+</head>
+<body>
+  
+    <p class="text-center">Any time of the day is a good time for unstar. Use this as <a target="_blank" href="http://en.wikipedia.org/wiki/Bookmarklet" class="text-danger">bookmarklet</a> for <a href="https://github.com/stars" target="_blank" class="text-danger">stared repos</a> and</p>
+  <div class="container text-center">
+    <a class="twitter-follow-button pull-right"
+  href="https://twitter.com/hmert"
+  data-show-count="false"
+  data-lang="en">
+@hmert
+</a>
+<script type="text/javascript">
+window.twttr = (function (d, s, id) {
+  var t, js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src= "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+}(document, "script", "twitter-wjs"));
+</script>
+    
+    <h1>UNSTAR</h1>
+    <h2>Do you speak it?</h2>
+<a href="javascript:(function()%7BjQuery('.js-toggler-form.starred.js-unstar-button').submit()%7D)()" class="btn btn-danger btn-lg"><i class="fa fa-star"></i> unstar</a>
+  </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2457153-24', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
